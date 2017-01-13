@@ -1,0 +1,7 @@
+<ul class="posts">
+  <div>
+    <li *ngFor="let currentPost of posts | async">
+    <posts-post [post]="currentPost"> </posts-post>
+  </div>
+</ul>
+
